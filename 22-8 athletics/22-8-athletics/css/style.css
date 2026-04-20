@@ -1,0 +1,70 @@
+body {
+  font-family: Arial;
+  background: #0a0a0a;
+  color: white;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+header {
+  background: black;
+  padding: 20px;
+}
+
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: cyan;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+}
+
+.grid-3 {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  background: #1a1a1a;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.btn {
+  background: blue;
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
